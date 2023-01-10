@@ -12,24 +12,11 @@
 }
 
 .container div {
-  width: 120px;
-  height: 120px;
   background: rgb(0, 195, 255);
   margin: 2px;
-}
-
-.container div.satu {
-  order: 2;
+  flex-grow: 1;
 }
 
 .container div.dua { 
-  order: 3;
-}
-
-.container div.tiga {
-  order: 4;
-}
-
-.container div.empat {
-  order: 1;
+  flex-grow: 3;
 }
